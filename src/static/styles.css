@@ -95,10 +95,33 @@ section h3 {
   margin-top: 6px;
   font-size: 14px;
   color: #5f6aa3;
+.participants-list {
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
-.form-group {
-  margin-bottom: 15px;
+.no-bullets {
+  list-style: none;
+  padding-left: 0;
+}
+
+.participant-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.delete-participant {
+  cursor: pointer;
+  color: #c62828;
+  font-size: 1.1em;
+  margin-left: 6px;
+  transition: color 0.2s;
+}
+.delete-participant:hover {
+  color: #ff1744;
 }
 
 .form-group label {
